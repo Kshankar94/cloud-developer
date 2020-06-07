@@ -25,11 +25,14 @@ import { Request, Response } from 'express';
     }
     try {
       const filtered_path = await filterImageFromURL(image_url)
+      
       await res.status(200).sendFile(filtered_path, {}, function (error) {
         if (error) {
          return res.status(422).send("unable to process the image.")
         }
-        deleteLocalFiles([filtered_path])
+        const files:Array<string> = []
+        files.push(filtered_path)
+        deleteLocalFiles(files)
       })
     }
     catch (error) {
