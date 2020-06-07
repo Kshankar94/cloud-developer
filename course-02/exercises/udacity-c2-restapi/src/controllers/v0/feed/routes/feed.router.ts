@@ -89,6 +89,8 @@ router.post('/',
     const caption = req.body.caption;
     const fileName = req.body.url;
 
+    console.log("caption")
+    console.log(caption)
     // check Caption is valid
     if (!caption) {
         return res.status(400).send({ message: 'Caption is required or malformed' });
