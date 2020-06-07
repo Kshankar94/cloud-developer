@@ -31,7 +31,9 @@ Filter image url request demo:
 
 
 	To obtain filtered images with elastic bean stalk, please do the below:
+		
 		For image 1, http://udagram-project-dev-dev.us-east-2.elasticbeanstalk.com/filteredimage?image_url=https://inpst.net/wp-content/uploads/remote-image-cache/timedotcom.files.wordpress.com/abbvie-headquarters-17af7ad893dd5aa93b8c6bbe4080cb4b468f1987.jpeg
+		
 		For image 2, http://udagram-project-dev-dev.us-east-2.elasticbeanstalk.com/filteredimage?image_url=https://inpst.net/wp-content/uploads/remote-image-cache/timedotcom.files.wordpress.com/football-helmet-6861b50dba178d2330b746250ac70fb39a459e97.jpg
     
 	To obtain filtered images with localhost, please do the below:
