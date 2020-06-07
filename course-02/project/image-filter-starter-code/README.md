@@ -41,5 +41,8 @@ Filter image url request demo:
 		For image 1, http://localhost:{PORT}/filteredimage?image_url=https://inpst.net/wp-content/uploads/remote-image-cache/timedotcom.files.wordpress.com/abbvie-headquarters-17af7ad893dd5aa93b8c6bbe4080cb4b468f1987.jpeg
 		
 		For image 2, http://localhost:{PORT}/filteredimage?image_url=https://inpst.net/wp-content/uploads/remote-image-cache/timedotcom.files.wordpress.com/football-helmet-6861b50dba178d2330b746250ac70fb39a459e97.jpg
-		
+	
+Resources:
+
+https://expressjs.com/en/api.html (res.sendFile in server.ts usage, 06/06/2020) 
 		
